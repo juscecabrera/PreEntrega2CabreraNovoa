@@ -1,0 +1,89 @@
+body {
+    background-color: white;
+}
+
+.imagen_inicio_img, .servicio_1_img, .servicio_2_img, .servicio_3_img{
+    width: 15%;
+}
+.navegador {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 5%;
+    border-bottom: 2px solid black;
+}
+
+.navegador ul li {
+    display: inline;
+}
+.imagen_inicio {
+    position: absolute;
+    top: 15%;
+    height: 20%;
+    border-bottom: 2px solid black;
+}
+
+.servicios {
+    position: absolute; 
+    top: 35%;
+
+}
+
+.quienes_somos {
+    position: absolute;
+    top: 5%;
+}
+
+.equipo div, .servicios_0_1 div {
+    display: inline-block;
+    width: 20%;
+}
+
+.servicios_0_1 {
+    position: absolute;
+    top: 5%;
+}
+.contacto {
+    position: absolute;
+    top: 5%;
+}
+
+.contacto div {
+    display: inline-block;
+    width: 40%;
+}
+
+.blog div {
+    border: 1px solid black;
+    margin: 10px;
+}
+.blog {
+    position: absolute;
+    top: 5%;
+}
+
+.blog img {
+    position: relative;
+    left: 86%;
+    display: inline-block;
+}
+
+footer {
+    position: absolute;
+    top: 80%;
+}
+
+footer p p {
+    display: block;
+}
+
+.art_1_1, .art_2_1, .art_3_1  {
+    width: 10%;
+}
+
+.ceo, .cmo {
+    width: 60%;
+}
+.cfo {
+    width: 40%;
+}
