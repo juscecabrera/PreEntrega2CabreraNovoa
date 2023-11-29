@@ -87,3 +87,12 @@ footer p p {
 .cfo {
     width: 40%;
 }
+
+.navbar {
+    z-index: 1;
+}
+
+main {
+    position: relative;
+    top: 10%;
+}
