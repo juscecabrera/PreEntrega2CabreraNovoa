@@ -101,3 +101,9 @@ main {
     position: relative;
     top: 10%;
 }
+
+#footer_about {
+    position: absolute;
+    bottom: 1%;
+    z-index: 100;
+}
