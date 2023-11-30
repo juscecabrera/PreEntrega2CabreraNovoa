@@ -69,8 +69,8 @@ body {
 }
 
 footer {
-    position: absolute;
-    top: 80%;
+    position: relative;
+    bottom: 1%;
 }
 
 footer p p {
@@ -93,6 +93,11 @@ footer p p {
 }
 
 main {
+    position: relative;
+    top: 10%;
+}
+
+#carouselExampleFade {
     position: relative;
     top: 10%;
 }
