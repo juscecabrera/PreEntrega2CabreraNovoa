@@ -39,10 +39,6 @@ body {
     width: 20%;
 }
 
-.servicios_0_1 {
-    position: absolute;
-    top: 5%;
-}
 .contacto {
     position: absolute;
     top: 5%;
@@ -105,5 +101,20 @@ main {
 #footer_about {
     position: absolute;
     bottom: 1%;
-    z-index: 100;
 }
+
+.servicios_0_1 {
+    display: flex;
+   
+}
+
+#footer_contacto {
+    display: grid;
+    
+}
+
+img.servicio_1_1, img.servicio_2_1, img.servicio_3_1, img.servicio_4_1, img.servicio_5_1, img.servicio_6_1 {
+    width: 30%;
+}
+
+
