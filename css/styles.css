@@ -1,5 +1,5 @@
-body {
-    background-color: white;
+main, .quienes_somos, .blog, .contacto{
+    background-color: #FF585D;
 }
 
 .imagen_inicio_img, .servicio_1_img, .servicio_2_img, .servicio_3_img{
@@ -98,9 +98,9 @@ main {
     top: 10%;
 }
 
-#footer_about {
-    position: absolute;
-    bottom: 1%;
+#footer_about, #footer_blog, #footer_contacto, #footer_servicios {
+    display: grid;
+    justify-items: footer;
 }
 
 .servicios_0_1 {
@@ -108,13 +108,14 @@ main {
    
 }
 
-#footer_contacto {
-    display: grid;
-    
-}
-
 img.servicio_1_1, img.servicio_2_1, img.servicio_3_1, img.servicio_4_1, img.servicio_5_1, img.servicio_6_1 {
     width: 30%;
+}
+
+.quienes_somos {
+    display: grid;
+    justify-content: center;
+    
 }
 
 
