@@ -3,16 +3,26 @@
   top: 10%;
 }
 
+body {
+  background-color: #FF585D;
+}
+
+.navbar {
+  z-index: 1;
+}
+
 main {
   position: relative;
   top: 10%;
   background-color: #FF585D;
+  padding-bottom: 3rem;
 }
 
 .blog {
   background-color: #FF585D;
   position: absolute;
   top: 5%;
+  padding: 2rem;
 }
 .blog img {
   position: relative;
@@ -22,42 +32,73 @@ main {
 .blog div {
   border: 1px solid black;
   margin: 10px;
+  padding: 1.2rem;
 }
 .blog div img {
-  width: 10%;
+  width: 15%;
 }
 
 .contacto {
   background-color: #FF585D;
   position: absolute;
   top: 5%;
-}
-.contacto div {
-  display: inline-block;
-  width: 40%;
+  display: block;
+  width: 100%;
+  padding: 2rem;
 }
 
 .quienes_somos {
   background-color: #FF585D;
   position: absolute;
   top: 5%;
-  display: grid;
-  justify-content: center;
+  padding: 2rem;
+}
+.quienes_somos p {
+  font-size: 20px;
 }
 
-footer {
+#footer {
   position: absolute;
-  bottom: 1%;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+  margin-top: 1rem;
+  background-color: grey;
+  padding: 3rem;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 5rem;
 }
 
+.div-servicios {
+  padding: 2rem;
+}
 .div-servicios div {
   display: inline-block;
   width: 20%;
+  height: 20%;
+  background-color: whitesmoke;
+  margin: 0.5rem;
+}
+.div-servicios div p {
+  padding: 6px;
+  display: flex;
+  flex-wrap: wrap;
 }
 .div-servicios div img {
   width: 30%;
+  margin: auto;
+  padding-top: 7px;
+  display: flex;
+  justify-content: center;
 }
 
-.navbar {
-  z-index: 1;
+#page-container {
+  position: relative;
+  min-height: 100vh;
+  background-color: #FF585D;
+}
+
+.row {
+  padding-bottom: 4rem;
 }/*# sourceMappingURL=main.css.map */
