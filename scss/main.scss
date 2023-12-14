@@ -1,0 +1,131 @@
+.navegador {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 5%;
+    border-bottom: 2px solid black;
+    ul {
+        li {
+            display: inline;  //esto está haciendo algo? 
+        }
+    }
+}
+
+
+.blog {
+    position: absolute;
+    top: 5%;
+    img {
+        position: relative;
+        left: 86%;
+        display: inline-block;
+    }
+    div {
+        border: 1px solid black;
+        margin: 10px;
+    }
+}
+
+.contacto {
+    position: absolute;
+    top: 5%;
+    div {
+        display: inline-block;
+        width: 40%;
+    }
+}
+
+.quienes_somos {
+    display: grid;
+    justify-content: center;
+    position: absolute;
+    top: 5%;
+}
+
+footer {
+    position: relative;
+    bottom: 1%;
+}
+
+#footer_about, #footer_blog, #footer_contacto, #footer_servicios { // esto creo que no está haciendo nada. Probar borrarlo. 
+    // display: grid;
+    // justify-items: footer;
+} 
+
+
+.imagen_inicio {
+    position: absolute;
+    top: 15%;
+    height: 20%;
+    border-bottom: 2px solid black;
+}
+
+// aqui voy a poner atributos que están en más de una etiqueta. No estoy seguro si están haciendo algo 
+img.servicio_1_1, img.servicio_2_1, img.servicio_3_1, img.servicio_4_1, img.servicio_5_1, img.servicio_6_1 {
+    width: 30%;
+}
+main, .quienes_somos, .blog, .contacto{
+    background-color: #FF585D;
+}
+
+.imagen_inicio_img, .servicio_1_img, .servicio_2_img, .servicio_3_img{
+    width: 15%;
+}
+
+// servicios. Otra vez, no sé si está haciendo algo. 
+
+.servicios {
+    position: absolute; 
+    top: 35%;
+}
+
+.servicios_0_1 {
+    display: flex;
+   
+}
+
+//imágenes del about 
+.ceo, .cmo {
+    width: 60%;
+}
+.cfo {
+    width: 40%;
+}
+
+
+// artículos del blog 
+
+.art_1_1, .art_2_1, .art_3_1  {
+    width: 10%;
+}
+
+
+// carrusel de Bootstrap 
+#carouselExampleFade {
+    position: relative;
+    top: 10%;
+}
+
+
+// ???? 
+
+.equipo div, .servicios_0_1 div {
+    display: inline-block;
+    width: 20%;
+}
+
+
+
+.navbar {
+    z-index: 1;
+}
+
+main {
+    position: relative;
+    top: 10%;
+}
+
+
+
+
+
