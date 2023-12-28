@@ -20,6 +20,24 @@ body {
     z-index: 1;
 }
 
+#page-container {
+    #footer-blog {
+        position: relative;
+        top: 300vh;
+        width: 100%;
+        height: 2.5rem;
+    margin-top: 1rem;
+    background-color: rgb(0, 0, 0);
+    padding: 3rem;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5rem;
+    padding-top: 2rem;
+    h2 {
+        color: white;
+        
+    }
+}}
 main {
     position: relative;
     top: 10%;
@@ -29,46 +47,67 @@ main {
 
 .blog {
     @include bgcolor-pos-top;
-    padding: 2rem;
-    display: inline-block;
+    padding: 5rem;
+    h1 {
+        color: white;
+    }
     img {
         position: relative;
-        left: 86%;
-        display: inline-block;
+        left: 40%;
+        width: 50%;
     }
     div {
         border: 1px solid black;
-        margin: 10px;
-        padding: 1.2rem;
-        img {
-            width: 20%;
-            padding: 1rem;
-            display: flex;
-            justify-content: flex-start;
-            position: relative;
-            right: 20%;
-        }
+        margin: 3rem;
+        padding: 1.5rem;
+        background-color: white;
     }
 }
 
 .contacto {
-    @include bgcolor-pos-top;
-    display: block;
+    position: relative;
+    top: 7rem;
     width: 100%;
-    padding: 2rem;
+    padding: 6rem;
+    margin: auto;
+    background-color: white;
+
    
 }
 
 .quienes_somos {
     @include bgcolor-pos-top;
-    padding: 2rem;
+    padding: 4rem;
     position: absolute;
     top: 1rem;
+    h1 {
+        color: white;
+    }
     p {
         font-size: 20px;
+        padding: 1rem;
     }
-}
+    .historia {
+        color: white;
+    }
 
+}
+#footer-about {
+    position: relative;
+    top: 50rem;
+    width: 100%;
+    height: 2.5rem;
+    margin-top: 1rem;
+    background-color: rgb(0, 0, 0);
+    padding: 3rem;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5rem;
+    padding-top: 2rem;
+   h2 {
+    color: white;
+   }
+}
 #footer {
     position: absolute;
     bottom: 0;
@@ -81,10 +120,9 @@ main {
     justify-content: center;
     padding-bottom: 5rem;
     padding-top: 2rem;
-    h2 {
-        color:
-    }
-    
+   h2 {
+    color: white;
+   }
 } // no funciona en: about, blog, contacto 
 
 
@@ -117,8 +155,4 @@ main {
     position: relative;
     min-height: 100vh;
     background-color: $colorFondoPrincipal;
-  }
-
-.row {
-    padding-bottom: 4rem;
 }
