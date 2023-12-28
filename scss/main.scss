@@ -30,6 +30,7 @@ main {
 .blog {
     @include bgcolor-pos-top;
     padding: 2rem;
+    display: inline-block;
     img {
         position: relative;
         left: 86%;
@@ -40,7 +41,8 @@ main {
         margin: 10px;
         padding: 1.2rem;
         img {
-            width: 15%;
+            width: 30%;
+            padding: 1rem;
         }
     }
 }
@@ -56,6 +58,8 @@ main {
 .quienes_somos {
     @include bgcolor-pos-top;
     padding: 2rem;
+    position: absolute;
+    top: 1rem;
     p {
         font-size: 20px;
     }
@@ -72,8 +76,9 @@ main {
     display: flex;
     justify-content: center;
     padding-bottom: 5rem;
+    padding-top: 2rem;
     
-} // no funciona en: about, blog, servicios, en index ni se ve 
+} // no funciona en: about, blog, contacto 
 
 
 //contenedor de servicios en la página "Servicios"
